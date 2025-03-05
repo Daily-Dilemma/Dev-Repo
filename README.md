@@ -1,13 +1,37 @@
-# Development Repositort for the Daily Dilemma Web Application
+# Development Repository for the Daily Dilemma Web Application
 ## Run Flask App Locally
 1. Clone the Repository:
-    Navigate to desired location for the local repository
-    'git clone "sshpathtorepo"'
-    enter ssh password
-2. Create the Virtual Environment in VS Code:
     Open CMD in vscode
-    'python -m venv venv'
-3. Run Virtual Environment - 'venv\scripts\activate'
-4. Install Dependencies - 'pip install -r requirements.txt'
-5. Run the Flask Application - 'python app.py'
-6. Open local host at port '5000'
+    Navigate to desired location for the local repository
+   ``` bash
+    git clone "sshpathtorepo"
+    ```
+    enter ssh password
+2. Navigate to the backend directory
+    ```bash
+    cd backend
+    ```
+3. Create the Virtual Environment in VS Code:
+    ```bash
+    python -m venv venv
+    ```
+4. Run Virtual Environment
+    ```bash
+    venv\scripts\activate
+    ```
+5. Install Dependencies 
+   ``` bash
+    pip install -r requirements.txt
+    ```
+6. Run the Flask Application 
+    ```bash
+    python app.py
+    ```
+7. Open at ```localhost:5000```
+## Run React Front End
+1. Open new CMD instance in VS Code
+```bash
+cd frontend
+npm start
+```
+2. Open local host at ```localhost:3000```
