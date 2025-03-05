@@ -4,7 +4,7 @@
     Open CMD in vscode
     Navigate to desired location for the local repository
    ``` bash
-    git clone "sshpathtorepo"
+    git clone "repository"
     ```
     enter ssh password
 2. Navigate to the backend directory
