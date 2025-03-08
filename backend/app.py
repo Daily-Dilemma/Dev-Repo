@@ -7,10 +7,10 @@ CORS(app)
 
 #Function to load the mock data from the json file
 def load_data():
-    with open("./backend/mock-data.json", "r") as file:
+    with open("./mock-data.json", "r") as file:
         return json.load(file)
 
-@app.route('/api/data', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_data():
     data = load_data()
     return jsonify(data)
